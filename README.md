@@ -1,2 +1,3 @@
 # Playground
-Playground projects
+
+Small sample projects without any warranty ;-)
