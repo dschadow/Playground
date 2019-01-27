@@ -5,7 +5,7 @@ phases:
     commands:
       - echo Build started on `date`
       - mvn package
-      - docker build -t dschadow/client-info client-info
+      - docker build -t dschadow/client-info client-info/.
   post_build:
     commands:
       - echo Build completed on `date`
