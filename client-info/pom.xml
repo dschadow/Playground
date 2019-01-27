@@ -3,20 +3,13 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>org.springframework.boot</groupId>
-        <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.1.2.RELEASE</version>
-        <relativePath/> <!-- lookup parent from repository -->
+        <groupId>de.dominikschadow</groupId>
+        <artifactId>playground</artifactId>
+        <version>1.0.0</version>
     </parent>
-    <groupId>de.dominikschadow</groupId>
     <artifactId>client-info</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
     <name>client-info</name>
     <description>Spring Boot web application to retrieve client data out of request</description>
-
-    <properties>
-        <java.version>11</java.version>
-    </properties>
 
     <dependencies>
         <dependency>
@@ -46,6 +39,7 @@
     </dependencies>
 
     <build>
+        <finalName>client-info</finalName>
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
