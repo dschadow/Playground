@@ -1,4 +1,4 @@
-FROM openjdk:11-jre-slim-strech
+FROM openjdk:11-jre-slim-stretch
 MAINTAINER Dominik Schadow <dominikschadow@gmail.com>
 
 VOLUME /tmp
