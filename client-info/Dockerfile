@@ -3,7 +3,7 @@ MAINTAINER Dominik Schadow <dominikschadow@gmail.com>
 
 VOLUME /tmp
 
-EXPOSE 8888
+EXPOSE 8080
 
 ADD target/client-info.jar app.jar
 
