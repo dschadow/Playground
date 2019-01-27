@@ -11,4 +11,4 @@ phases:
       - mvn package
 artifacts:
   files:
-    - target/client-info-0.0.1-SNAPSHOT.jar
+    - client-info/target/client-info.jar
