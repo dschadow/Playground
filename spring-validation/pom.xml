@@ -9,7 +9,7 @@
     </parent>
     <artifactId>spring-validation</artifactId>
     <name>Spring Validation</name>
-    <description>Spring Validation playgroud</description>
+    <description>Spring Validation playground</description>
 
     <dependencies>
         <dependency>
