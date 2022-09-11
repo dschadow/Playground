@@ -8,17 +8,17 @@
         <version>1.0.0</version>
     </parent>
     <artifactId>client-info</artifactId>
-    <name>client-info</name>
+    <name>Client Info</name>
     <description>Spring Boot web application to retrieve client data out of request</description>
 
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-actuator</artifactId>
+            <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
+            <artifactId>spring-boot-starter-actuator</artifactId>
         </dependency>
 
         <dependency>
@@ -31,6 +31,7 @@
             <artifactId>lombok</artifactId>
             <optional>true</optional>
         </dependency>
+
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
@@ -39,8 +40,6 @@
     </dependencies>
 
     <build>
-        <finalName>client-info</finalName>
-
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
@@ -48,5 +47,4 @@
             </plugin>
         </plugins>
     </build>
-
 </project>
